@@ -1,14 +1,14 @@
-<h1>ALX Simple Shell Team Project<h1>
+<h1>ALX Simple Shell Team Project</h1>
 
 This is an ALX collaboration project on Shell. We were tasked to create a simple shell that mimics the Bash shell. Our shell shall be called hsh
 
-<h2>Project was completed using<h2>
+<h2>Project was completed using</h2>
 <hr>
 <ul>C language<ul>
 <ul>shell<ul>
 <ul>Betty linter<ul>
 
-<h1>General Requirement for project<h1>
+<h1>General Requirement for project</h1>
 <hr>
 
 <ul>All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89<ul>
@@ -20,12 +20,12 @@ This is an ALX collaboration project on Shell. We were tasked to create a simple
 <ul>All header files should be include guarded<ul>
 <ul>Write a README with the description of the project<ul>
 
-<h2>Description<h2>
+<h2>Description</h2>
 <hr>
 
 hsh is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
 
-<h2>How hsh work<h2>
+<h2>How hsh work</h2>
 <ul>Prints a prompt and waits for a command from the user<ul>
 <ul>Creates a child process in which the command is checked<ul>
 <ul>Checks for built-ins, aliases in the PATH, and local executable programs<ul>
@@ -35,12 +35,12 @@ hsh is a simple UNIX command language interpreter that reads commands from eithe
 <ul>To exit: press Ctrl-D or enter "exit" (with or without a status)<ul>
 <ul>Works also in non interactive mode<ul>
 
-<h1>Compilation<h1>
+<h1>Compilation</h1>
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 
-<h2>Invocation<h2>
+<h2>Invocation</h2>
 
 Usage: hsh [filename]
 
@@ -90,7 +90,7 @@ $ ./hsh test
 
 $
 
-<h2>Environment<h2>
+<h2>Environment</h2>
 
 Upon invocation, hsh receives and copies the environment of the parent process in which it was executed. This environment is an array of name-value strings describing variables in the format NAME=VALUE. A few key environmental variables are:
 
