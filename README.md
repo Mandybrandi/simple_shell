@@ -55,10 +55,9 @@ hsh can be invoked both interactively and non-interactively. If hsh is invoked w
 
 Example:
 
-$ echo "echo 'hello'" | ./hsh
+$echo "echo 'hello'" | ./hsh
 
 'hello'
-
 $
 
 If hsh is invoked with standard input connected to a terminal (determined by isatty(3)), an interactive shell is opened. When executing interactively, hsh displays the prompt $ when it is ready to read a command.
@@ -97,3 +96,4 @@ Upon invocation, hsh receives and copies the environment of the parent process i
 
 <h2>HOME</h2>
 The home directory of the current user and the default directory argument for the cd builtin command.
+
