@@ -3,37 +3,39 @@
 This is an ALX collaboration project on Shell. We were tasked to create a simple shell that mimics the Bash shell. Our shell shall be called hsh
 
 <h2>Project was completed using</h2>
-
-<ul>C language<ul>
-<ul>shell<ul>
-<ul>Betty linter<ul>
+<ul>
+<li>C language</li>
+<li>shell</li>
+<li>Betty linter<li>
 
 <h1>General Requirement for project</h1>
 <hr>
-
-<ul>All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89<ul>
-<ul>All files should end with a new line<ul>
-<ul>A README.md file, at the root of the folder of the project is mandatory<ul>
-<ul>Use the Betty style. It will be checked using betty-style.pl and betty-doc.pl<ul>
-<ul>Shell should not have any memory leaks<ul>
-<ul>No more than 5 functions per file<ul>
-<ul>All header files should be include guarded<ul>
-<ul>Write a README with the description of the project<ul>
+<ul>
+<li>All files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89</li>
+<li>All files should end with a new line</li>
+<li>A README.md file, at the root of the folder of the project is mandatory</li>
+<li>Use the Betty style. It will be checked using betty-style.pl and betty-doc.pl</li>
+<li>Shell should not have any memory leaks</li>
+<li>No more than 5 functions per file</li>
+<li>All header files should be include guarded</li>
+<li>Write a README with the description of the project</li>
+</ul>
 
 <h2>Description</h2>
 
 hsh is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
 
 <h2>How hsh work</h2>
-<ul>Prints a prompt and waits for a command from the user<ul>
-<ul>Creates a child process in which the command is checked<ul>
-<ul>Checks for built-ins, aliases in the PATH, and local executable programs<ul>
-<ul>The child process is replaced by the command, which accepts arguments<ul>
-<ul>When the command is done, the program returns to the parent process and prints the prompt<ul>
-<ul>The program is ready to receive a new command<ul>
-<ul>To exit: press Ctrl-D or enter "exit" (with or without a status)<ul>
-<ul>Works also in non interactive mode<ul>
-
+<ul>
+<li>Prints a prompt and waits for a command from the user</li>
+<li>Creates a child process in which the command is checked</li>
+<li>Checks for built-ins, aliases in the PATH, and local executable programs</li>
+<li>The child process is replaced by the command, which accepts arguments</li>
+<li>When the command is done, the program returns to the parent process and prints the prompt</li>
+<li>The program is ready to receive a new command</li>
+<li>To exit: press Ctrl-D or enter "exit" (with or without a status)</li>
+<li>Works also in non interactive mode</li>
+</ul>
 <h1>Compilation</h1>
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
