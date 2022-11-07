@@ -3,7 +3,7 @@
 This is an ALX collaboration project on Shell. We were tasked to create a simple shell that mimics the Bash shell. Our shell shall be called hsh
 
 <h2>Project was completed using</h2>
-<hr>
+
 <ul>C language<ul>
 <ul>shell<ul>
 <ul>Betty linter<ul>
@@ -21,7 +21,6 @@ This is an ALX collaboration project on Shell. We were tasked to create a simple
 <ul>Write a README with the description of the project<ul>
 
 <h2>Description</h2>
-<hr>
 
 hsh is a simple UNIX command language interpreter that reads commands from either a file or standard input and executes them.
 
@@ -94,5 +93,5 @@ $
 
 Upon invocation, hsh receives and copies the environment of the parent process in which it was executed. This environment is an array of name-value strings describing variables in the format NAME=VALUE. A few key environmental variables are:
 
-<h2>HOME<h2>
+<h2>HOME</h2>
 The home directory of the current user and the default directory argument for the cd builtin command.
